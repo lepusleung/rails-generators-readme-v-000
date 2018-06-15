@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180614214538) do
+=======
+ActiveRecord::Schema.define(version: 20180614212950) do
+>>>>>>> d8779173eae83a9dba8b0fe994ed3879008560ea
 
   create_table "authors", force: :cascade do |t|
     t.string   "name"
@@ -33,7 +37,10 @@ ActiveRecord::Schema.define(version: 20180614214538) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "category_id"
+<<<<<<< HEAD
     t.boolean  "post_status"
+=======
+>>>>>>> d8779173eae83a9dba8b0fe994ed3879008560ea
   end
 
 end
